@@ -1,0 +1,315 @@
+@import url(./fonts.css);
+@import url(./default.css);
+
+body{
+    background-color: white;
+    font-family: 'PlayfairDisplay';
+    font-weight: 500;
+    color: white;
+}
+header{
+    background: url(../img/1.jpg)center no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 1676px;
+    margin: 0 auto;
+}
+.wrapper1{
+    width: 1378px;
+    margin: 0 auto;
+}
+header .D{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger-menu .line{
+background-color: white;
+height: 2px;
+width: 30px;
+margin-top: 10px;
+}
+header .menu a{
+    color: white;
+    font-weight: 501;
+    font-size: 15px;
+    transition: 0.4s;
+}
+header .menu a:hover{
+    color: black;
+}
+header .wrapper{
+    padding-top: 44px;
+}
+header .wrapper .menu{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+header h6{
+margin-top: 148px;
+width: 55%;
+font-size: 75px;
+font-weight: 700;
+}
+header h3{
+    margin-top: 50px;
+    width: 30%;
+    font-size: 30px;
+    font-weight: 401;
+    line-height: 45px;
+}
+header .wrapper .X{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+header .wrapper .X .Y {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 43%;
+}
+header .wrapper .X .btn{
+    background-color: orange;
+    padding: 30px 110px;
+    border-radius: 70px;
+    font-size: 20px;
+    font-weight: 601;
+}
+header .wrapper .X .Y p{
+    width: 51%;
+    color: #A1A8B6;
+}
+header .wrapper .container{
+    margin-top: 121px;
+}
+header .wrapper .container .Text{
+    font-size: 14px;
+    font-weight: 401;
+    color: #A1A8B6;
+}
+header .wrapper .container .socialnetwork{
+    margin-top: 19px;
+    width: 11.2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.first{
+    margin: 160px auto;
+}
+.first .wrapper1{
+    display: flex;
+    align-items: center;
+}
+.first .wrapper1 .container{
+    color: black;
+}
+.first .wrapper1 .container h6{
+    font-size: 42px;
+    font-weight: 700;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.first .wrapper1 .container p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+}
+.first .wrapper1 .picture{
+    height: 475px;
+    background: url(../img/2.jpg)no-repeat;
+    width: 83%;
+}
+.first .wrapper1 .picture .date{
+    padding: 40px 0 0 60px;
+}
+.first .wrapper1 .picture .date .XZ{
+    font-size: 23px;
+    font-weight: 700;
+}
+.first .wrapper1 .picture .date .XD{
+    font-size: 18px;
+    font-weight: 401;
+}
+.first .wrapper1 .picture .strelka{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 264px 0 0 60px;
+}
+.first .wrapper1 .picture .strelka .XY{
+    font-size: 20px;
+    font-weight: 501;
+    line-height: 29px;
+}
+.first .wrapper1 .container{
+    width: 550px;
+}
+.first .wrapper1 .container .btn{
+    padding: 25px 60px;
+    border: 2px solid #DD9428;
+    border-radius: 38px;
+    font-size: 20px;
+    font-weight: 601;
+    margin-top: 75px;
+}
+.second{
+    height: 465px;
+    background: url(../img/3.jpg)center no-repeat;
+    background-size: cover;
+    color: black;
+}
+.second .wrapper1{
+    display: flex;
+    justify-content: end;
+}
+.second .wrapper1 .degrade{
+    padding: 133px 0 0 0;
+    width: 60%;
+    display: flex;
+}
+.second .container1 h6{
+    font-size: 42px;
+    font-weight: 700;
+    width: 100%;
+}
+.second .container1 p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 401;
+    width: 45%;
+}
+.second .container2 .name{
+    border: 2px solid #CED8DF;
+    border-radius: 38px;
+    padding: 25px 67px 26px 20px;
+}
+.second .container2 .number{
+    margin-top: 20px;
+    border: 2px solid #CED8DF;
+    border-radius: 38px;
+    padding: 25px 67px 26px 20px;
+}
+.second .container2 .btn{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 601;
+    background: #DD9428;
+    border-radius: 38px;
+    padding: 25px 45px;
+}
+.second .container2 p{
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 401;
+    width: 75%;
+    text-align: center;
+}
+.second .container2 a{
+    color: orange;
+}
+.third{
+    margin: 160px auto;
+}
+.third .wrapper1{
+    display: flex;
+    align-items: center;
+}
+.third .wrapper1 .container{
+    color: black;
+}
+.third .wrapper1 .container h6{
+    font-size: 42px;
+    font-weight: 700;
+    width: 90%;
+    margin-bottom: 39px;
+}
+.third .wrapper1 .container p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+}
+.third .wrapper1 .picture{
+    height: 475px;
+    background: url(../img/4.jpg)no-repeat;
+    width: 83%;
+}
+.third .wrapper1 .picture .date{
+    padding: 40px 0 0 60px;
+}
+.third .wrapper1 .picture .date .XZ{
+    font-size: 23px;
+    font-weight: 700;
+}
+.third .wrapper1 .picture .date .XD{
+    font-size: 16px;
+    font-weight: 401;
+}
+.third .wrapper1 .picture .strelka{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 264px 0 0 60px;
+}
+.third .wrapper1 .picture .strelka .XY{
+    font-size: 18px;
+    font-weight: 501;
+    line-height: 29px;
+}
+.third .wrapper1 .container{
+    width: 55%;
+}
+.third .wrapper1 .container .btn{
+    padding: 25px 60px;
+    border: 2px solid #DD9428;
+    border-radius: 38px;
+    font-size: 20px;
+    font-weight: 601;
+    margin-top: 50px;
+    color: #DD9428;
+}
+footer{
+    background: #F8F8F8;
+}
+.NOGA{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 70px 0;
+}
+.NOGA .container:first-child{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.NOGA .container:first-child .one{
+    width: 10%;
+    font-size: 14px;
+    font-weight: 501;
+}
+.NOGA .container:first-child .two{
+    width: 70%;
+    font-size: 14px;
+    font-weight: 501;
+}
+.NOGA .container:last-child{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.NOGA .container nav a{
+    color: #90A4B2;
+    transition: 0.4s;
+}
+.NOGA .container nav a:hover{
+    color: black;
+}
